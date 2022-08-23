@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200;300;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+header{
+    background-color:rgba(64, 224, 208, 0.425);
+display: flex;
+justify-content: space-around;
+}
+
+.logo{
+    width: 200px;
+}
+
+.navbar{
+ display: flex;
+ align-items: center;
+}
+
+.menu{
+    font-family: 'Mukta', sans-serif;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+grid-gap: 20px;
+}
+
+.menu__item a { 
+    color: black;
+    text-decoration: none;
+}
+
+.menu__item.active a {
+    text-decoration: underline double;
+}
+
+.imagenprincipal {
+height: 80vh;
+background-image:url("../images/wallpaperhouse.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center center;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+
+.imagenprincipal h1 { 
+    font-family: 'Kanit', sans-serif;
+    color: rgb(0, 0, 0);
+    background-color: rgba(64, 224, 208, 0.671);
+    padding-inline: 20px;
+}
+
+.botonempecemos a {
+    font-family: 'Kanit', sans-serif;
+    color: white;
+    background-color: rgba(139, 0, 139, 0.329);
+    text-decoration: none;
+}
+
+.piedepagina { 
+    background-color: rgb(38, 90, 90);
+}
